@@ -1,0 +1,1 @@
+$("body").addClass("layout-boxed");

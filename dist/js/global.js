@@ -1,0 +1,1 @@
+// Global javascript functions list
