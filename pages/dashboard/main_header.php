@@ -1,3 +1,4 @@
+<?php include_once "get_data.php"; ?>
 <div class="row">
     <div class="col-lg-12">
         <div class="page-title">
@@ -30,7 +31,7 @@
                     Users
                 </div>
                 <div class="circle-tile-number text-faded">
-                    <?php include_once "get_data.php"; ?>
+                    <?php echo $order_count; ?>
                     <span id="sparklineA"><canvas style="display: inline-block; width: 29px; height: 24px; vertical-align: top;" width="29" height="24"></canvas></span>
                 </div>
                 <a class="circle-tile-footer" href="#">More Info <i class="fa fa-chevron-circle-right"></i></a>
