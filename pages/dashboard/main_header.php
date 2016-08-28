@@ -30,7 +30,7 @@
                     Users
                 </div>
                 <div class="circle-tile-number text-faded">
-                    265
+                    <?php include_once "get_data.php"; ?>
                     <span id="sparklineA"><canvas style="display: inline-block; width: 29px; height: 24px; vertical-align: top;" width="29" height="24"></canvas></span>
                 </div>
                 <a class="circle-tile-footer" href="#">More Info <i class="fa fa-chevron-circle-right"></i></a>
