@@ -1,11 +1,10 @@
 <?php
-  $active_menu = "dashboard2";
+  $active_menu = "dashboard";
   include_once "../layout/header.php";
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
-  
   <!-- JQuery UI -->
   <!-- <link href="../../dist/css/jquery-ui.min.css" rel="stylesheet"/> -->
 
@@ -22,15 +21,15 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
-      <section class="content-header">
+      <!-- <section class="content-header">
         <h1>
           Dashboard 
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-          <li class="active">Dashboard 2</li>
+          <li class="active">Dashboard</li>
         </ol>
-      </section>
+      </section> -->
 
       <!-- Main content -->
       <section class="content">
@@ -49,7 +48,5 @@
     <div class="control-sidebar-bg"></div>
   </div><!-- ./wrapper -->
 
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="../../dist/js/pages/dashboard2.js"></script>
 <script src="script.js"></script>
 <?php include_once "../layout/footer.php" ?>

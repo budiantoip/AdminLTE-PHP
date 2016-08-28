@@ -4,6 +4,7 @@
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
+  <link href="style.css" rel="stylesheet"/>
   <!-- Put Page-level css and javascript libraries here -->
   <!-- JQuery UI -->
   <!-- <link href="../../dist/css/jquery-ui.min.css" rel="stylesheet"/> -->
@@ -48,5 +49,7 @@
     <div class="control-sidebar-bg"></div>
   </div><!-- ./wrapper -->
 
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="../../dist/js/pages/dashboard.js"></script>
 <script src="script.js"></script>
 <?php include_once "../layout/footer.php" ?>

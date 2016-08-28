@@ -23,12 +23,10 @@
 <script src="../../plugins/jquery-confirm/jquery-confirm.min.js"></script>
 <!-- AdminLTE App -->
 <script src="../../dist/js/app.min.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="../../dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 <script src="../../dist/js/global.js"></script>
 <!-- Grunt Livereload -->
-<script src="//localhost:35729/livereload.js"></script>
+<!-- <script src="//localhost:35729/livereload.js"></script> -->
 </body>
 </html>

@@ -93,6 +93,19 @@
               <a href="../../pages/layout_options/collapsed_sidebar.php"><i class="fa fa-circle-o"></i> Collapsed Sidebar </a>
             </li>
 
+            <?php if ($active_menu == "widgets" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/widgets">
+                <i class="fa fa-th"></i> <span>Widgets</span>
+                <span class="pull-right-container">
+                  <small class="label pull-right bg-green">new</small>
+                </span>
+              </a>
+            </li>
+
           </ul>
         </li>
 
