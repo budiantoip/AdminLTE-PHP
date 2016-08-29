@@ -49,5 +49,5 @@
     <div class="control-sidebar-bg"></div>
   </div><!-- ./wrapper -->
 
-<script src="top_navigation/script.js"></script>
 <?php include_once "../layout/footer.php" ?>
+<script src="top_navigation/script.js"></script>

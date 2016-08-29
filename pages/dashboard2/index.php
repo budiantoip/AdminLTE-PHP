@@ -49,7 +49,7 @@
     <div class="control-sidebar-bg"></div>
   </div><!-- ./wrapper -->
 
+<?php include_once "../layout/footer.php" ?>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="../../dist/js/pages/dashboard2.js"></script>
 <script src="script.js"></script>
-<?php include_once "../layout/footer.php" ?>

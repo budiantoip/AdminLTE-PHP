@@ -50,7 +50,7 @@
                     Revenue
                 </div>
                 <div class="circle-tile-number text-faded">
-                    $32,384
+                    <?php echo $order_count; ?>
                 </div>
                 <a class="circle-tile-footer" href="#">More Info <i class="fa fa-chevron-circle-right"></i></a>
             </div>
@@ -68,7 +68,7 @@
                     Alerts
                 </div>
                 <div class="circle-tile-number text-faded">
-                    9 New
+                    <?php echo $order_count; ?>
                 </div>
                 <a class="circle-tile-footer" href="#">More Info <i class="fa fa-chevron-circle-right"></i></a>
             </div>
@@ -86,7 +86,7 @@
                     Tasks
                 </div>
                 <div class="circle-tile-number text-faded">
-                    10
+                    <?php echo $order_count; ?>
                     <span id="sparklineB"><canvas style="display: inline-block; width: 24px; height: 24px; vertical-align: top;" width="24" height="24"></canvas></span>
                 </div>
                 <a class="circle-tile-footer" href="#">More Info <i class="fa fa-chevron-circle-right"></i></a>
@@ -105,7 +105,7 @@
                     Orders
                 </div>
                 <div class="circle-tile-number text-faded">
-                    24
+                    <?php echo $order_count; ?>
                     <span id="sparklineC"><canvas style="display: inline-block; width: 34px; height: 24px; vertical-align: top;" width="34" height="24"></canvas></span>
                 </div>
                 <a class="circle-tile-footer" href="#">More Info <i class="fa fa-chevron-circle-right"></i></a>
@@ -124,7 +124,7 @@
                     Mentions
                 </div>
                 <div class="circle-tile-number text-faded">
-                    96
+                    <?php echo $order_count; ?>
                     <span id="sparklineD"><canvas style="display: inline-block; width: 36px; height: 24px; vertical-align: top;" width="36" height="24"></canvas></span>
                 </div>
                 <a class="circle-tile-footer" href="#">More Info <i class="fa fa-chevron-circle-right"></i></a>

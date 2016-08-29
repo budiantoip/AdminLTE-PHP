@@ -49,5 +49,5 @@
     <div class="control-sidebar-bg"></div>
   </div><!-- ./wrapper -->
 
-<script src="collapsed_sidebar/script.js"></script>
 <?php include_once "../layout/footer.php" ?>
+<script src="collapsed_sidebar/script.js"></script>

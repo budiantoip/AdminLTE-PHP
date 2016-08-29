@@ -49,5 +49,5 @@
     <div class="control-sidebar-bg"></div>
   </div><!-- ./wrapper -->
 
-<script src="boxed/script.js"></script>
 <?php include_once "../layout/footer.php" ?>
+<script src="boxed/script.js"></script>
