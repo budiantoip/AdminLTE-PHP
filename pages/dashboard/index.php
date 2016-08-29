@@ -4,7 +4,6 @@
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
-  <link href="style.css" rel="stylesheet"/>
   <!-- Put Page-level css and javascript libraries here -->
   <!-- JQuery UI -->
   <!-- <link href="../../dist/css/jquery-ui.min.css" rel="stylesheet"/> -->
