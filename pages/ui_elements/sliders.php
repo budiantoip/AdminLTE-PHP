@@ -1,11 +1,22 @@
 <?php
-  $active_menu = "layout_options";
+  $active_menu = "sliders";
   include_once "../layout/header.php";
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
 
+  <!-- Ion Slider -->
+  <link rel="stylesheet" href="../../plugins/ionslider/ion.rangeSlider.css">
+  <!-- ion slider Nice -->
+  <link rel="stylesheet" href="../../plugins/ionslider/ion.rangeSlider.skinNice.css">
+  <!-- bootstrap slider -->
+  <link rel="stylesheet" href="../../plugins/bootstrap-slider/slider.css">
+
+  <!-- Ion Slider -->
+  <script src="../../plugins/ionslider/ion.rangeSlider.min.js"></script>
+  <!-- Bootstrap slider -->
+  <script src="../../plugins/bootstrap-slider/bootstrap-slider.js"></script>
 
   <!-- ================================================ -->
 
@@ -17,9 +28,9 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-
-        <?php include_once("top_navigation/main_header.php") ?>
-        
+      
+        <?php include_once("sliders/main_header.php") ?>
+      
     </div><!-- /.content-wrapper -->
     
     <?php include_once "../layout/copyright.php"; ?>
@@ -32,4 +43,4 @@
   </div><!-- ./wrapper -->
 
 <?php include_once "../layout/footer.php" ?>
-<script src="top_navigation/script.js"></script>
+<script src="sliders/script.js"></script>

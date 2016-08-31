@@ -1,11 +1,10 @@
 <?php
-  $active_menu = "layout_options";
+  $active_menu = "icons";
   include_once "../layout/header.php";
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
-
 
   <!-- ================================================ -->
 
@@ -17,9 +16,9 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-
-        <?php include_once("top_navigation/main_header.php") ?>
-        
+      
+        <?php include_once("icons/main_header.php") ?>
+      
     </div><!-- /.content-wrapper -->
     
     <?php include_once "../layout/copyright.php"; ?>
@@ -32,4 +31,4 @@
   </div><!-- ./wrapper -->
 
 <?php include_once "../layout/footer.php" ?>
-<script src="top_navigation/script.js"></script>
+<script src="icons/script.js"></script>

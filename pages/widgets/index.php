@@ -5,12 +5,9 @@
 
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
-  <!-- JQuery UI -->
-  <!-- <link href="../../dist/css/jquery-ui.min.css" rel="stylesheet"/> -->
+  
 
-  <!-- DataTables -->
-  <!-- <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-  <script src="../../plugins/datatables/dataTables.bootstrap.min.js"></script> -->
+  <!-- ================================================ -->
 
   <div class="wrapper">
 

@@ -1,18 +1,22 @@
 <?php
-  $active_menu = "dashboard2";
+  $active_menu = "flot";
   include_once "../layout/header.php";
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
-  
-  <!-- ChartJS -->
-  <script src="../../plugins/chartjs/Chart.min.js"></script>
 
-  <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-  <script src="dist/js/pages/dashboard.js"></script>
-  <!-- AdminLTE for demo purposes -->
-  <script src="dist/js/demo.js"></script>
+  <!-- ChartJS -->
+  <!-- FLOT CHARTS -->
+  <script src="../../plugins/flot/jquery.flot.min.js"></script>
+  <!-- FLOT RESIZE PLUGIN - allows the chart to redraw when the window is resized -->
+  <script src="../../plugins/flot/jquery.flot.resize.min.js"></script>
+  <!-- FLOT PIE PLUGIN - also used to draw donut charts -->
+  <script src="../../plugins/flot/jquery.flot.pie.min.js"></script>
+  <!-- FLOT CATEGORIES PLUGIN - Used to draw bar charts -->
+  <script src="../../plugins/flot/jquery.flot.categories.min.js"></script>
+
+  <!-- ================================================ -->
 
   <div class="wrapper">
 
@@ -23,20 +27,20 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
-      <section class="content-header">
+      <!-- <section class="content-header">
         <h1>
           Dashboard 
         </h1>
         <ol class="breadcrumb">
           <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-          <li class="active">Dashboard 2</li>
+          <li class="active">Dashboard</li>
         </ol>
-      </section>
+      </section> -->
 
       <!-- Main content -->
       <section class="content">
 
-        <?php include_once("main_header.php") ?>
+        <?php include_once("flot/main_header.php") ?>
         
       </section><!-- /.content -->
     </div><!-- /.content-wrapper -->
@@ -51,6 +55,4 @@
   </div><!-- ./wrapper -->
 
 <?php include_once "../layout/footer.php" ?>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="../../dist/js/pages/dashboard2.js"></script>
-<script src="script.js"></script>
+<script src="flot/script.js"></script>

@@ -49,7 +49,7 @@
   <!-- jQuery 2.2.3 -->
   <script src="../../plugins/jQuery/jquery-2.2.3.min.js"></script>
   <!-- jQuery UI 1.11.4 -->
-  <script src="../../plugins/jQueryUI/jquery-ui.min.js"></script>
+  <!-- <script src="../../plugins/jQueryUI/jquery-ui.min.js"></script> -->
   <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
   <script>
     $.widget.bridge('uibutton', $.ui.button);

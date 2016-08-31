@@ -1,12 +1,12 @@
 <?php
-  $active_menu = "layout_options";
+  $active_menu = "general";
   include_once "../layout/header.php";
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
 
-
+  
   <!-- ================================================ -->
 
   <div class="wrapper">
@@ -18,8 +18,8 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
 
-        <?php include_once("top_navigation/main_header.php") ?>
-        
+        <?php include_once("general/main_header.php") ?>
+      
     </div><!-- /.content-wrapper -->
     
     <?php include_once "../layout/copyright.php"; ?>
@@ -32,4 +32,4 @@
   </div><!-- ./wrapper -->
 
 <?php include_once "../layout/footer.php" ?>
-<script src="top_navigation/script.js"></script>
+<script src="general/script.js"></script>

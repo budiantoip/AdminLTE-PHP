@@ -8,7 +8,7 @@
           <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Budianto IP</p>
+          <p>Alexander Pierce</p>
           <a href="pages/dashboard"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -106,6 +106,85 @@
               </a>
             </li>
 
+          </ul>
+        </li>
+
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i> <span>Charts</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <?php if ($active_menu == "chartjs" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/charts/chartjs.php"><i class="fa fa-circle-o"></i> ChartJS </a>
+            </li>
+            <?php if ($active_menu == "morris" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/charts/morris.php"><i class="fa fa-circle-o"></i> Morris </a>
+            </li>
+            <?php if ($active_menu == "flot" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/charts/flot.php"><i class="fa fa-circle-o"></i> Flot </a>
+            </li>
+            <?php if ($active_menu == "inline_charts" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/charts/inline_charts.php"><i class="fa fa-circle-o"></i> Inline Charts </a>
+            </li>
+          </ul>
+        </li>
+
+
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-laptop"></i> <span>UI Elements</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <?php if ($active_menu == "general" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/ui_elements/general.php"><i class="fa fa-circle-o"></i> General </a>
+            </li>
+            <?php if ($active_menu == "icons" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/ui_elements/icons.php"><i class="fa fa-circle-o"></i> Icons </a>
+            </li>
+            <?php if ($active_menu == "buttons" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/ui_elements/buttons.php"><i class="fa fa-circle-o"></i> Buttons </a>
+            </li>
+            <?php if ($active_menu == "sliders" ) {?>
+            <li class="active">
+            <?php } else {?>
+            <li>
+            <?php } ?>
+              <a href="../../pages/ui_elements/sliders.php"><i class="fa fa-circle-o"></i> Sliders </a>
+            </li>
           </ul>
         </li>
 

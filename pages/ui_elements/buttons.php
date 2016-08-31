@@ -1,5 +1,5 @@
 <?php
-  $active_menu = "layout_options";
+  $active_menu = "buttons";
   include_once "../layout/header.php";
 ?>
 
@@ -18,7 +18,7 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
 
-        <?php include_once("top_navigation/main_header.php") ?>
+        <?php include_once("buttons/main_header.php") ?>
         
     </div><!-- /.content-wrapper -->
     
@@ -32,4 +32,4 @@
   </div><!-- ./wrapper -->
 
 <?php include_once "../layout/footer.php" ?>
-<script src="top_navigation/script.js"></script>
+<script src="buttons/script.js"></script>

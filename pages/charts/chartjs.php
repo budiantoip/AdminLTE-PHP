@@ -1,11 +1,13 @@
 <?php
-  $active_menu = "layout_options";
+  $active_menu = "chartjs";
   include_once "../layout/header.php";
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
 
+  <!-- ChartJS -->
+  <script src="../../plugins/chartjs/Chart.min.js"></script>
 
   <!-- ================================================ -->
 
@@ -17,9 +19,23 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <!-- <section class="content-header">
+        <h1>
+          Dashboard 
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li class="active">Dashboard</li>
+        </ol>
+      </section> -->
 
-        <?php include_once("top_navigation/main_header.php") ?>
+      <!-- Main content -->
+      <section class="content">
+
+        <?php include_once("chartjs/main_header.php") ?>
         
+      </section><!-- /.content -->
     </div><!-- /.content-wrapper -->
     
     <?php include_once "../layout/copyright.php"; ?>
@@ -32,4 +48,4 @@
   </div><!-- ./wrapper -->
 
 <?php include_once "../layout/footer.php" ?>
-<script src="top_navigation/script.js"></script>
+<script src="chartjs/script.js"></script>
