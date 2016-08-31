@@ -1,5 +1,5 @@
 <?php
-  $active_menu = "layout_options";
+  $active_menu = "boxed";
   include_once "../layout/header.php";
 ?>
 

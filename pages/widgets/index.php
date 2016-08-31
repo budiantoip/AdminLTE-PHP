@@ -1,5 +1,5 @@
 <?php
-  $active_menu = "dashboard";
+  $active_menu = "widgets";
   include_once "../layout/header.php";
 ?>
 
@@ -45,5 +45,5 @@
     <div class="control-sidebar-bg"></div>
   </div><!-- ./wrapper -->
 
-<script src="script.js"></script>
 <?php include_once "../layout/footer.php" ?>
+<script src="script.js"></script>

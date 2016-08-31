@@ -5,12 +5,18 @@
 
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
+
+  <!-- jQuery UI 1.11.4 -->
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   
   <!-- Morris chart -->
   <link rel="stylesheet" href="../../plugins/morris/morris.css">
 
   <!-- Morris.js charts -->
   <script src="../../plugins/morris/morris.min.js"></script>
+
+  <!-- Sparkline -->
+  <script src="../../plugins/sparkline/jquery.sparkline.min.js"></script>
 
   <script src="../../plugins/raphael/raphael-min.js"></script> 
 

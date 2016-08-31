@@ -1,3 +1,12 @@
+<?php
+  function isActive($menu, $mode="full"){
+    global $active_menu;
+    if ($mode == "partial")
+      echo ($active_menu == $menu? "active": "");
+    else
+      echo ($active_menu == $menu? "class='active'": "");
+  }
+?>
 <!-- Left side column. contains the logo and sidebar -->
 <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
@@ -27,7 +36,7 @@
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
 
-        <li class="active treeview">
+        <li class="treeview">
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
@@ -35,24 +44,16 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <?php if ($active_menu == "dashboard" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("dashboard") ?>>
               <a href="../../pages/dashboard"><i class="fa fa-circle-o"></i> Dashboard v1</a>
             </li>
-            <?php if ($active_menu == "dashboard2" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("dashboard2") ?>>
               <a href="../../pages/dashboard2"><i class="fa fa-circle-o"></i> Dashboard v2</a>
             </li>
           </ul>
         </li>
 
-        <li class="active treeview">
+        <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i> <span>Layout Options</span>
             <span class="pull-right-container">
@@ -61,43 +62,23 @@
           </a>
           <ul class="treeview-menu">
 
-            <?php if ($active_menu == "top_navigation" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("top_navigation") ?>>
               <a href="../../pages/layout_options/top_navigation.php"><i class="fa fa-circle-o"></i> Top Navigation</a>
             </li>
 
-            <?php if ($active_menu == "boxed" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("boxed") ?>>
               <a href="../../pages/layout_options/boxed.php"><i class="fa fa-circle-o"></i> Boxed</a>
             </li>
 
-            <?php if ($active_menu == "fixed" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("fixed") ?>>
               <a href="../../pages/layout_options/fixed.php"><i class="fa fa-circle-o"></i> Fixed</a>
             </li>
 
-            <?php if ($active_menu == "collapsed_sidebar" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("collapsed_sidebar") ?>>
               <a href="../../pages/layout_options/collapsed_sidebar.php"><i class="fa fa-circle-o"></i> Collapsed Sidebar </a>
             </li>
 
-            <?php if ($active_menu == "widgets" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("widgets") ?>>
               <a href="../../pages/widgets">
                 <i class="fa fa-th"></i> <span>Widgets</span>
                 <span class="pull-right-container">
@@ -109,7 +90,7 @@
           </ul>
         </li>
 
-        <li class="active treeview">
+        <li class="treeview">
           <a href="#">
             <i class="fa fa-pie-chart"></i> <span>Charts</span>
             <span class="pull-right-container">
@@ -117,39 +98,23 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <?php if ($active_menu == "chartjs" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("chartjs") ?>>
               <a href="../../pages/charts/chartjs.php"><i class="fa fa-circle-o"></i> ChartJS </a>
             </li>
-            <?php if ($active_menu == "morris" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("morris") ?>>
               <a href="../../pages/charts/morris.php"><i class="fa fa-circle-o"></i> Morris </a>
             </li>
-            <?php if ($active_menu == "flot" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("flot") ?>>
               <a href="../../pages/charts/flot.php"><i class="fa fa-circle-o"></i> Flot </a>
             </li>
-            <?php if ($active_menu == "inline_charts" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("inline_charts") ?>>
               <a href="../../pages/charts/inline_charts.php"><i class="fa fa-circle-o"></i> Inline Charts </a>
             </li>
           </ul>
         </li>
 
 
-        <li class="active treeview">
+        <li class="treeview">
           <a href="#">
             <i class="fa fa-laptop"></i> <span>UI Elements</span>
             <span class="pull-right-container">
@@ -157,32 +122,16 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <?php if ($active_menu == "general" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("general") ?>>
               <a href="../../pages/ui_elements/general.php"><i class="fa fa-circle-o"></i> General </a>
             </li>
-            <?php if ($active_menu == "icons" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("icons") ?>>
               <a href="../../pages/ui_elements/icons.php"><i class="fa fa-circle-o"></i> Icons </a>
             </li>
-            <?php if ($active_menu == "buttons" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("buttons") ?>>
               <a href="../../pages/ui_elements/buttons.php"><i class="fa fa-circle-o"></i> Buttons </a>
             </li>
-            <?php if ($active_menu == "sliders" ) {?>
-            <li class="active">
-            <?php } else {?>
-            <li>
-            <?php } ?>
+            <li <?php isActive("sliders") ?>>
               <a href="../../pages/ui_elements/sliders.php"><i class="fa fa-circle-o"></i> Sliders </a>
             </li>
           </ul>
@@ -192,3 +141,8 @@
     </section>
     <!-- /.sidebar -->
   </aside>
+<script>
+  var parent = $("ul.sidebar-menu li.active").closest("ul").closest("li");
+  if (parent[0] != undefined)
+    $(parent[0]).addClass("active");
+</script>
