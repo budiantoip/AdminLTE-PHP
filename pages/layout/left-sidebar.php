@@ -113,7 +113,6 @@
           </ul>
         </li>
 
-
         <li class="treeview">
           <a href="#">
             <i class="fa fa-laptop"></i> <span>UI Elements</span>
@@ -133,6 +132,123 @@
             </li>
             <li <?php isActive("sliders") ?>>
               <a href="../../pages/ui_elements/sliders.php"><i class="fa fa-circle-o"></i> Sliders </a>
+            </li>
+            <li <?php isActive("timeline") ?>>
+              <a href="../../pages/ui_elements/timeline.php"><i class="fa fa-circle-o"></i> Timeline </a>
+            </li>
+            <li <?php isActive("modals") ?>>
+              <a href="../../pages/ui_elements/modals.php"><i class="fa fa-circle-o"></i> Modals </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-laptop"></i> <span>Forms</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li <?php isActive("general_elements") ?>>
+              <a href="../../pages/forms/general_elements.php"><i class="fa fa-circle-o"></i> General Elements </a>
+            </li>
+            <li <?php isActive("advanced_elements") ?>>
+              <a href="../../pages/forms/advanced_elements.php"><i class="fa fa-circle-o"></i> Advanced Elements </a>
+            </li>
+            <li <?php isActive("editors") ?>>
+              <a href="../../pages/forms/editors.php"><i class="fa fa-circle-o"></i> Editors </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-laptop"></i> <span>Tables</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li <?php isActive("simple_tables") ?>>
+              <a href="../../pages/tables/simple_tables.php"><i class="fa fa-circle-o"></i> Simple Tables </a>
+            </li>
+          </ul>
+          <ul class="treeview-menu">
+            <li <?php isActive("data_tables") ?>>
+              <a href="../../pages/tables/data_tables.php"><i class="fa fa-circle-o"></i> Data Tables </a>
+            </li>
+          </ul>
+        </li>
+
+        <li <?php isActive("calendar") ?>>
+          <a href="../../pages/calendar/calendar.php">
+            <i class="fa fa-calendar"></i> <span>Calendar</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-red">3</small>
+              <small class="label pull-right bg-blue">17</small>
+            </span>
+          </a>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-envelope"></i> <span>Mailbox</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li <?php isActive("inbox") ?>>
+              <a href="../../pages/mailbox/inbox.php">Inbox
+                <span class="pull-right-container">
+                  <span class="label label-primary pull-right">13</span>
+                </span>
+              </a>
+            </li>
+            <li <?php isActive("compose") ?>>
+              <a href="../../pages/mailbox/compose.php">Compose</a>
+            </li>
+            <li <?php isActive("read") ?>>
+              <a href="../../pages/mailbox/read.php">Read</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-folder"></i> <span>Examples</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu" style="display: block;">
+            <li <?php isActive("invoice") ?>>
+              <a href="../../pages/examples/invoice.php"><i class="fa fa-circle-o"></i> Invoice</a>
+            </li>
+            <li <?php isActive("profile") ?>>
+              <a href="../../pages/examples/profile.php"><i class="fa fa-circle-o"></i> Profile</a>
+            </li>
+            <li <?php isActive("login") ?>>
+              <a href="../../pages/examples/login.php"><i class="fa fa-circle-o"></i> Login</a>
+            </li>
+            <li <?php isActive("register") ?>>
+              <a href="../../pages/examples/register.php"><i class="fa fa-circle-o"></i> Register</a>
+            </li>
+            <li <?php isActive("lockscreen") ?>>
+              <a href="../../pages/examples/lockscreen.php"><i class="fa fa-circle-o"></i> Lockscreen</a>
+            </li>
+            <li <?php isActive("404") ?>>
+              <a href="../../pages/examples/404.php"><i class="fa fa-circle-o"></i> 404 Error</a>
+            </li>
+            <li <?php isActive("500") ?>>
+              <a href="../../pages/examples/500.php"><i class="fa fa-circle-o"></i> 500 Error</a>
+            </li>
+            <li <?php isActive("blank") ?>>
+              <a href="../../pages/examples/blank.php"><i class="fa fa-circle-o"></i> Blank Page</a>
+            </li>
+            <li <?php isActive("pace") ?>>
+              <a href="../../pages/examples/pace.php"><i class="fa fa-circle-o"></i> Pace Page</a>
             </li>
           </ul>
         </li>

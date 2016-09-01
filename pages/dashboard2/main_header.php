@@ -274,7 +274,7 @@
                         <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
                       </div>
                       <!-- /.direct-chat-info -->
-                      <img alt="message user image" src="dist/img/user1-128x128.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
+                      <img alt="message user image" src="../../dist/img/user1-128x128.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
                       <div class="direct-chat-text">
                         Is this template really for free? That's unbelievable!
                       </div>
@@ -289,7 +289,7 @@
                         <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
                       </div>
                       <!-- /.direct-chat-info -->
-                      <img alt="message user image" src="dist/img/user3-128x128.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
+                      <img alt="message user image" src="../../dist/img/user3-128x128.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
                       <div class="direct-chat-text">
                         You better believe it!
                       </div>
@@ -304,7 +304,7 @@
                         <span class="direct-chat-timestamp pull-right">23 Jan 5:37 pm</span>
                       </div>
                       <!-- /.direct-chat-info -->
-                      <img alt="message user image" src="dist/img/user1-128x128.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
+                      <img alt="message user image" src="../../dist/img/user1-128x128.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
                       <div class="direct-chat-text">
                         Working with AdminLTE on a great new app! Wanna join?
                       </div>
@@ -319,7 +319,7 @@
                         <span class="direct-chat-timestamp pull-left">23 Jan 6:10 pm</span>
                       </div>
                       <!-- /.direct-chat-info -->
-                      <img alt="message user image" src="dist/img/user3-128x128.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
+                      <img alt="message user image" src="../../dist/img/user3-128x128.jpg" class="direct-chat-img"><!-- /.direct-chat-img -->
                       <div class="direct-chat-text">
                         I would love to.
                       </div>
@@ -335,7 +335,7 @@
                     <ul class="contacts-list">
                       <li>
                         <a href="#">
-                          <img alt="User Image" src="dist/img/user1-128x128.jpg" class="contacts-list-img">
+                          <img alt="User Image" src="../../dist/img/user1-128x128.jpg" class="contacts-list-img">
 
                           <div class="contacts-list-info">
                                 <span class="contacts-list-name">
@@ -350,7 +350,7 @@
                       <!-- End Contact Item -->
                       <li>
                         <a href="#">
-                          <img alt="User Image" src="dist/img/user7-128x128.jpg" class="contacts-list-img">
+                          <img alt="User Image" src="../../dist/img/user7-128x128.jpg" class="contacts-list-img">
 
                           <div class="contacts-list-info">
                                 <span class="contacts-list-name">
@@ -365,7 +365,7 @@
                       <!-- End Contact Item -->
                       <li>
                         <a href="#">
-                          <img alt="User Image" src="dist/img/user3-128x128.jpg" class="contacts-list-img">
+                          <img alt="User Image" src="../../dist/img/user3-128x128.jpg" class="contacts-list-img">
 
                           <div class="contacts-list-info">
                                 <span class="contacts-list-name">
@@ -380,7 +380,7 @@
                       <!-- End Contact Item -->
                       <li>
                         <a href="#">
-                          <img alt="User Image" src="dist/img/user5-128x128.jpg" class="contacts-list-img">
+                          <img alt="User Image" src="../../dist/img/user5-128x128.jpg" class="contacts-list-img">
 
                           <div class="contacts-list-info">
                                 <span class="contacts-list-name">
@@ -395,7 +395,7 @@
                       <!-- End Contact Item -->
                       <li>
                         <a href="#">
-                          <img alt="User Image" src="dist/img/user6-128x128.jpg" class="contacts-list-img">
+                          <img alt="User Image" src="../../dist/img/user6-128x128.jpg" class="contacts-list-img">
 
                           <div class="contacts-list-info">
                                 <span class="contacts-list-name">
@@ -410,7 +410,7 @@
                       <!-- End Contact Item -->
                       <li>
                         <a href="#">
-                          <img alt="User Image" src="dist/img/user8-128x128.jpg" class="contacts-list-img">
+                          <img alt="User Image" src="../../dist/img/user8-128x128.jpg" class="contacts-list-img">
 
                           <div class="contacts-list-info">
                                 <span class="contacts-list-name">
@@ -463,42 +463,42 @@
                 <div class="box-body no-padding">
                   <ul class="users-list clearfix">
                     <li>
-                      <img alt="User Image" src="dist/img/user1-128x128.jpg">
+                      <img alt="User Image" src="../../dist/img/user1-128x128.jpg">
                       <a href="#" class="users-list-name">Alexander Pierce</a>
                       <span class="users-list-date">Today</span>
                     </li>
                     <li>
-                      <img alt="User Image" src="dist/img/user8-128x128.jpg">
+                      <img alt="User Image" src="../../dist/img/user8-128x128.jpg">
                       <a href="#" class="users-list-name">Norman</a>
                       <span class="users-list-date">Yesterday</span>
                     </li>
                     <li>
-                      <img alt="User Image" src="dist/img/user7-128x128.jpg">
+                      <img alt="User Image" src="../../dist/img/user7-128x128.jpg">
                       <a href="#" class="users-list-name">Jane</a>
                       <span class="users-list-date">12 Jan</span>
                     </li>
                     <li>
-                      <img alt="User Image" src="dist/img/user6-128x128.jpg">
+                      <img alt="User Image" src="../../dist/img/user6-128x128.jpg">
                       <a href="#" class="users-list-name">John</a>
                       <span class="users-list-date">12 Jan</span>
                     </li>
                     <li>
-                      <img alt="User Image" src="dist/img/user2-160x160.jpg">
+                      <img alt="User Image" src="../../dist/img/user2-160x160.jpg">
                       <a href="#" class="users-list-name">Alexander</a>
                       <span class="users-list-date">13 Jan</span>
                     </li>
                     <li>
-                      <img alt="User Image" src="dist/img/user5-128x128.jpg">
+                      <img alt="User Image" src="../../dist/img/user5-128x128.jpg">
                       <a href="#" class="users-list-name">Sarah</a>
                       <span class="users-list-date">14 Jan</span>
                     </li>
                     <li>
-                      <img alt="User Image" src="dist/img/user4-128x128.jpg">
+                      <img alt="User Image" src="../../dist/img/user4-128x128.jpg">
                       <a href="#" class="users-list-name">Nora</a>
                       <span class="users-list-date">15 Jan</span>
                     </li>
                     <li>
-                      <img alt="User Image" src="dist/img/user3-128x128.jpg">
+                      <img alt="User Image" src="../../dist/img/user3-128x128.jpg">
                       <a href="#" class="users-list-name">Nadia</a>
                       <span class="users-list-date">15 Jan</span>
                     </li>
@@ -749,7 +749,7 @@
               <ul class="products-list product-list-in-box">
                 <li class="item">
                   <div class="product-img">
-                    <img alt="Product Image" src="dist/img/default-50x50.gif">
+                    <img alt="Product Image" src="../../dist/img/default-50x50.gif">
                   </div>
                   <div class="product-info">
                     <a class="product-title" href="javascript:void(0)">Samsung TV
@@ -762,7 +762,7 @@
                 <!-- /.item -->
                 <li class="item">
                   <div class="product-img">
-                    <img alt="Product Image" src="dist/img/default-50x50.gif">
+                    <img alt="Product Image" src="../../dist/img/default-50x50.gif">
                   </div>
                   <div class="product-info">
                     <a class="product-title" href="javascript:void(0)">Bicycle
@@ -775,7 +775,7 @@
                 <!-- /.item -->
                 <li class="item">
                   <div class="product-img">
-                    <img alt="Product Image" src="dist/img/default-50x50.gif">
+                    <img alt="Product Image" src="../../dist/img/default-50x50.gif">
                   </div>
                   <div class="product-info">
                     <a class="product-title" href="javascript:void(0)">Xbox One <span class="label label-danger pull-right">$350</span></a>
@@ -787,7 +787,7 @@
                 <!-- /.item -->
                 <li class="item">
                   <div class="product-img">
-                    <img alt="Product Image" src="dist/img/default-50x50.gif">
+                    <img alt="Product Image" src="../../dist/img/default-50x50.gif">
                   </div>
                   <div class="product-info">
                     <a class="product-title" href="javascript:void(0)">PlayStation 4
