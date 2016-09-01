@@ -542,7 +542,7 @@
                   </thead>
                   <tbody>
                   <tr>
-                    <td><a href="pages/examples/invoice.html">OR9842</a></td>
+                    <td><a href="../../pages/examples/invoice.php">OR9842</a></td>
                     <td>Call of Duty IV</td>
                     <td><span class="label label-success">Shipped</span></td>
                     <td>
@@ -550,7 +550,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td><a href="pages/examples/invoice.html">OR1848</a></td>
+                    <td><a href="../../pages/examples/invoice.php">OR1848</a></td>
                     <td>Samsung Smart TV</td>
                     <td><span class="label label-warning">Pending</span></td>
                     <td>
@@ -558,7 +558,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td><a href="pages/examples/invoice.html">OR7429</a></td>
+                    <td><a href="../../pages/examples/invoice.php">OR7429</a></td>
                     <td>iPhone 6 Plus</td>
                     <td><span class="label label-danger">Delivered</span></td>
                     <td>
@@ -566,7 +566,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td><a href="pages/examples/invoice.html">OR7429</a></td>
+                    <td><a href="../../pages/examples/invoice.php">OR7429</a></td>
                     <td>Samsung Smart TV</td>
                     <td><span class="label label-info">Processing</span></td>
                     <td>
@@ -574,7 +574,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td><a href="pages/examples/invoice.html">OR1848</a></td>
+                    <td><a href="../../pages/examples/invoice.php">OR1848</a></td>
                     <td>Samsung Smart TV</td>
                     <td><span class="label label-warning">Pending</span></td>
                     <td>
@@ -582,7 +582,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td><a href="pages/examples/invoice.html">OR7429</a></td>
+                    <td><a href="../../pages/examples/invoice.php">OR7429</a></td>
                     <td>iPhone 6 Plus</td>
                     <td><span class="label label-danger">Delivered</span></td>
                     <td>
@@ -590,7 +590,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <td><a href="pages/examples/invoice.html">OR9842</a></td>
+                    <td><a href="../../pages/examples/invoice.php">OR9842</a></td>
                     <td>Call of Duty IV</td>
                     <td><span class="label label-success">Shipped</span></td>
                     <td>

@@ -71,7 +71,7 @@
                                     </label>
                                 </div>
                                 <br>
-                                <a href="index.html" class="btn btn-lg btn-green btn-block">Sign In</a>
+                                <a href="../../pages/dashboard" class="btn btn-lg btn-green btn-block">Sign In</a>
                                 <hr>
                                 <a class="btn btn-block btn-social btn-facebook">
                                   <i class="fa fa-facebook"></i> Sign in with Facebook

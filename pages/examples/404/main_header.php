@@ -20,7 +20,7 @@
 
           <p>
             We could not find the page you were looking for.
-            Meanwhile, you may <a href="../../index.html">return to dashboard</a> or try using the search form.
+            Meanwhile, you may <a href="../../pages/dashboard/">return to dashboard</a> or try using the search form.
           </p>
 
           <form class="search-form">

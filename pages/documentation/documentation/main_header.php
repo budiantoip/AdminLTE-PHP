@@ -127,7 +127,7 @@ AdminLTE/
   </ul>
   <div class="callout callout-danger lead">
     <h4>Tip!</h4>
-    <p>The <a href="../starter.html">starter page</a> is a good place to start building your app if you'd like to start from scratch.</p>
+    <p>The <a href="../../pages/starter/starter.php">starter page</a> is a good place to start building your app if you'd like to start from scratch.</p>
   </div>
 
   <h3>Layout Options</h3>
@@ -367,7 +367,7 @@ AdminLTE/
       <span class="eg">Main Header Example</span>
       <header class="main-header" style="position: relative;">
         <!-- Logo -->
-        <a href="index2.html" class="logo" style="position: relative;"><b>Admin</b>LTE</a>
+        <a href="../../pages/dashboard2/" class="logo" style="position: relative;"><b>Admin</b>LTE</a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar" role="navigation" style="border: 0;max-height: 50px;">
           <!-- Sidebar toggle button-->
@@ -502,7 +502,7 @@ AdminLTE/
     </div>
   </div>
   <pre class="prettyprint">&LT;header class="main-header">
-  &LT;a href="../../index2.html" class="logo">
+  &LT;a href="../../pages/dashboard2/" class="logo">
     &LT;!-- LOGO -->
     AdminLTE
   &LT;/a>
@@ -648,7 +648,7 @@ AdminLTE/
         <nav class="navbar navbar-static-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a href="../../index2.html" class="navbar-brand"><b>Admin</b>LTE</a>
+              <a href="../../pages/dashboard2/" class="navbar-brand"><b>Admin</b>LTE</a>
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                 <i class="fa fa-bars"></i>
               </button>
@@ -701,7 +701,7 @@ AdminLTE/
   &LT;nav class="navbar navbar-static-top">
     &LT;div class="container-fluid">
     &LT;div class="navbar-header">
-      &LT;a href="../../index2.html" class="navbar-brand">&LT;b>Admin&LT;/b>LTE&LT;/a>
+      &LT;a href="../../pages/dashboard2/" class="navbar-brand">&LT;b>Admin&LT;/b>LTE&LT;/a>
       &LT;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
         &LT;i class="fa fa-bars">&LT;/i>
       &LT;/button>
