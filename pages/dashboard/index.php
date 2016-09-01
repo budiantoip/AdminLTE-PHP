@@ -6,26 +6,49 @@
 <body class="hold-transition skin-blue sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
 
+  <!-- iCheck -->
+  <link rel="stylesheet" href="../../plugins/iCheck/flat/blue.css">
+  <!-- Morris chart -->
+  <link rel="stylesheet" href="../../plugins/morris/morris.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="../../plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="../../plugins/datepicker/datepicker3.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="../../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+
   <!-- jQuery UI 1.11.4 -->
-  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="../../plugins/jQueryUI/jquery-ui.min.js"></script>
   
   <!-- Morris chart -->
   <link rel="stylesheet" href="../../plugins/morris/morris.css">
 
   <!-- Morris.js charts -->
+  <script src="../../plugins/raphael/raphael-min.js"></script>
   <script src="../../plugins/morris/morris.min.js"></script>
 
   <!-- Sparkline -->
   <script src="../../plugins/sparkline/jquery.sparkline.min.js"></script>
 
-  <script src="../../plugins/raphael/raphael-min.js"></script> 
+  <!-- jvectormap -->
+  <script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+  <script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 
   <!-- jQuery Knob -->
   <script src="../../plugins/knob/jquery.knob.js"></script>
 
-  <!-- jvectormap -->
-  <script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-  <script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+  <!-- daterangepicker -->
+  <script src="../../plugins/moment/moment.min.js"></script>
+  <script src="../../plugins/daterangepicker/daterangepicker.js"></script>
+  <!-- datepicker -->
+  <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+  <!-- Bootstrap WYSIHTML5 -->
+  <script src="../../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+
+  <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+  <script src="../../dist/js/pages/dashboard.js"></script>
 
   <!-- ================================================ -->
 
