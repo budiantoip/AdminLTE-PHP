@@ -222,7 +222,7 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu" style="display: block;">
+          <ul class="treeview-menu">
             <li <?php isActive("invoice") ?>>
               <a href="../../pages/examples/invoice.php"><i class="fa fa-circle-o"></i> Invoice</a>
             </li>
