@@ -1,0 +1,90 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "emmet.includeLanguages": {
+            "php": "html"
+        },
+        "emmet.triggerExpansionOnTab": true,
+        "html.format.indentInnerHtml": true,
+        "css.validate": true,
+        "javascript.validate.enable": true,
+        "php.validate.enable": true,
+        "php.suggest.basic": true,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.wordBasedSuggestions": "matchingDocuments",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.acceptSuggestionOnCommitCharacter": true,
+        "editor.acceptSuggestionOnEnter": "on",
+        "editor.tabCompletion": "on",
+        "editor.parameterHints.enabled": true,
+        "editor.hover.enabled": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.organizeImports": true
+        },
+        "workbench.colorTheme": "Default Dark+",
+        "workbench.iconTheme": "vs-seti",
+        "explorer.confirmDelete": false,
+        "explorer.confirmDragAndDrop": false,
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true
+        },
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/dist": true,
+            "**/build": true
+        },
+        "files.watcherExclude": {
+            "**/node_modules/**": true,
+            "**/bower_components/**": true,
+            "**/dist/**": true,
+            "**/build/**": true
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-vscode.vscode-json",
+            "bradlc.vscode-tailwindcss",
+            "formulahendry.auto-rename-tag",
+            "ms-vscode.vscode-typescript-next",
+            "esbenp.prettier-vscode",
+            "ms-vscode.vscode-eslint",
+            "ms-vscode.vscode-html-css-support",
+            "ms-vscode.vscode-php-intellisense",
+            "bmewburn.vscode-intelephense-client",
+            "xdebug.php-debug",
+            "ms-vscode.vscode-json",
+            "ms-vscode.vscode-css-peek",
+            "ms-vscode.vscode-html-css-support",
+            "ritwickdey.liveserver",
+            "ms-vscode.vscode-bootstrap4-snippets",
+            "ms-vscode.vscode-jquery-snippets",
+            "formulahendry.auto-close-tag",
+            "ms-vscode.vscode-html-css-support",
+            "ms-vscode.vscode-json",
+            "ms-vscode.vscode-typescript-next",
+            "ms-vscode.vscode-eslint",
+            "esbenp.prettier-vscode"
+        ]
+    }
+}

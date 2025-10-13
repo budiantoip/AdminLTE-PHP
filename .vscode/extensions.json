@@ -1,0 +1,29 @@
+{
+    "recommendations": [
+        "ms-vscode.vscode-json",
+        "bradlc.vscode-tailwindcss",
+        "formulahendry.auto-rename-tag",
+        "ms-vscode.vscode-typescript-next",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-eslint",
+        "ms-vscode.vscode-html-css-support",
+        "ms-vscode.vscode-php-intellisense",
+        "bmewburn.vscode-intelephense-client",
+        "xdebug.php-debug",
+        "ms-vscode.vscode-css-peek",
+        "ritwickdey.liveserver",
+        "ms-vscode.vscode-bootstrap4-snippets",
+        "ms-vscode.vscode-jquery-snippets",
+        "formulahendry.auto-close-tag",
+        "ms-vscode.vscode-html-css-support",
+        "ms-vscode.vscode-json",
+        "ms-vscode.vscode-typescript-next",
+        "ms-vscode.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-ai",
+        "github.copilot",
+        "github.copilot-chat",
+        "tabnine.tabnine-vscode",
+        "ms-vscode.vscode-ai"
+    ]
+}

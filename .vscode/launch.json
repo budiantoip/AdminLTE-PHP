@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
+        },
+        {
+            "name": "Launch Firefox",
+            "type": "firefox",
+            "request": "launch",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
+        },
+        {
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003,
+            "pathMappings": {
+                "/var/www/html": "${workspaceFolder}"
+            }
+        }
+    ]
+}
